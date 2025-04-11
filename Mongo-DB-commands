@@ -1,0 +1,8 @@
+show dbs  --> to see databases
+use <database-name>  --> to create database enter to that database
+db.createCollections{"tables-name"}  --> to create collections
+show collections --> to list the collections
+db.<collection-name>.drop()  --> to delete the collections
+db.dropDatabase()  --> to delete database
+school>  db.student.insertOne({"name" : "deepak","dept": "ISE" ,"age": 22,"gender": "male"})  --> to insert one 
+db.student.insertMany([   { "name": "ram" , "dept" : "civil", "age":22, "gender": "male" }, {"name": "ravi" , "dept" : "CSE", "age":23, "gender": "male" }] )  -- > to insert many
